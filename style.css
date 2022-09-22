@@ -160,3 +160,84 @@ section.cta a {
     text-decoration: none;
     color: #0F3FD3;
 }
+
+section.beneficios{
+    padding:50px 0;
+}
+
+.lista-beneficios{
+    width:40%;
+    margin-top:30px;
+}
+
+.lista-beneficios h1{
+    color:black;
+    font-size: 38px;
+}
+
+.lista-beneficios p{
+    color: #7E92AC;
+   vertical-align: middle;
+   font-size: 14px;
+}
+
+.lista-beneficios span{
+    display: inline-block;
+    width: calc(100% - 70px);
+}
+
+.lista-beneficios img{
+    display: inline-block;
+    vertical-align: middle;
+    width:70px;
+}
+.img-beneficios{
+    width: 60%;
+}
+
+.lista-beneficios a {
+    display: inline-block;
+    padding:8px 15px;
+    border-radius:7px;
+    font-weight: bold;
+    font-size: 17px;
+    background: #0F3FD3;
+    text-decoration: none;
+    color: white;
+}
+
+.img-beneficios img{max-width: 100%;}
+
+section.depoimentos{
+    background-color: #FBFCFE;
+    padding:40px 0;
+}
+
+section.depoimentos > h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.container-slider{
+    overflow:hidden;
+    padding:40px 0;   
+}
+
+.container-slider-single{
+    float: left;
+    background-color:white;
+    text-align: center;
+    padding:15px;
+    border-radius:10px;
+}
+
+.container-slider-single p{
+    margin:15px 0;
+    color:#7E92AC;
+    font-size: 14px;
+}
+
+.slick-slide {
+    margin-left:27px;
+
+  }
